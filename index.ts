@@ -9,6 +9,6 @@ export { PaystackClient } from './client';
 // export { SubscriptionService } from './services/subscription';
 // export { VerificationService } from './services/verification';
 // export { BalanceService } from './services/balance';
-// export { BankService } from './services/bank';
+export { BankService } from './services/bank';
 // export { SettlementService } from './services/settlement';
 // export { PageService } from './services/page';
