@@ -1,6 +1,7 @@
 import { PaystackClient } from '../client';
 import { AxiosResponse } from 'axios';
 import { BankListOptions, BankListResponse } from '../interfaces/bank.interface';
+import { Bank } from '../types';
 
 
 export class BankService {

@@ -43,3 +43,16 @@ export interface CustomerResponse {
   message: string;
   data: CustomerData;
 }
+
+export interface Bank {
+  name: string;
+  slug: string;
+  code: string;
+  longcode: string;
+  gateway: string | null;
+  pay_with_bank: boolean;
+  active: boolean;
+  country: string;
+  currency: string;
+  type: string | null;
+}
